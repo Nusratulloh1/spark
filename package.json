@@ -33,6 +33,7 @@
   "dependencies": {
     "@pinia/nuxt": "^0.4.8",
     "pinia": "^2.0.34",
-    "vue-i18n": "^9.2.2"
+    "vue-i18n": "^9.2.2",
+    "vue-tg": "^0.8.0"
   }
 }

@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: 'Nuxt 3 starter',
+      script: [{ src: 'https://telegram.org/js/telegram-web-app.js' }],
       link: [
         {
           rel: 'icon',
@@ -12,7 +13,7 @@ export default defineNuxtConfig({
       ],
     },
   },
-  ssr: false,
+  ssr: true,
   modules: [
     '@pinia/nuxt',
     '@nuxt/devtools'

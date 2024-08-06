@@ -1,8 +1,8 @@
 <template>
-  <div class="flex relative flex-col items-start text-black pt-10">
+  <div class="flex relative flex-col items-start text-black pt-7 md:pt-10">
     <div class="container mx-auto px-5">
       <header
-        class="flex overflow-hidden z-0 flex-wrap gap-5 justify-between items-center self-stretch w-full text-xl font-semibold leading-snug max-md:px-5 max-md:max-w-full"
+        class="flex overflow-hidden z-0 flex-wrap gap-5 justify-between items-center self-stretch w-full text-xl font-semibold leading-snug max-md:max-w-full"
       >
         <img
           loading="lazy"
@@ -27,16 +27,19 @@
     </div>
     <div class="container mx-auto px-5">
       <main
-        class="flex flex-wrap lg:flex-nowrap gap-5 overflow-hidden z-0 items-center justify-start lg:justify-between pt-9 pb-2 mt-16 max-w-full w-full max-md:px-5 max-md:mt-10"
+        class="flex flex-wrap lg:flex-nowrap gap-5 overflow-hidden z-0 items-center justify-start lg:justify-between md:pt-9 pb-2 mt-16 max-w-full w-full max-md:mt-7"
       >
         <section class="flex flex-col max-w-full w-[531px]">
           <h1
-            class="text-5xl font-extrabold leading-10 uppercase max-md:max-w-full max-md:text-4xl max-md:leading-10"
+            class="text-5xl font-extrabold leading-[45px] uppercase max-md:max-w-full max-md:text-xl max-md:leading-6"
           >
             Explore the world without limits.
-            <br />Get the items you've always desired WITH CRYPTO.
+            <br class="hidden md:block" />Get the items you've always desired
+            WITH CRYPTO.
           </h1>
-          <p class="mt-9 text-xl font-semibold leading-7 max-md:max-w-full">
+          <p
+            class="mt-4 md:mt-9 text-xl font-semibold max-md:text-sm leading-7 max-md:max-w-full"
+          >
             Spark is a decentralized peer-to-peer marketplace that connects
             shoppers with travelers willing to bring them products from abroad.
             Leveraging the TON blockchain, Spark ensures secure and transparent
@@ -48,7 +51,7 @@
           loading="lazy"
           src="@/assets/images/global.svg"
           alt="Illustration of global shopping concept"
-          class="object-contain z-0 w-[80%] lg:w-full aspect-[1.19] h-full max-h-[473px] max-w-[565px] flex"
+          class="object-contain z-0 w-[80%] mx-auto lg:w-full aspect-[1.19] h-full max-h-[473px] max-w-[565px] flex"
         />
       </main>
     </div>

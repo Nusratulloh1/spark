@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h3 class="text-[#0D0D0D] text-4xl md:text-[59px] font-extrabold">
+    <h3 class="text-[#0D0D0D] text-2xl md:text-[59px] font-extrabold">
       SHOPAHOLIC:
     </h3>
-    <div class="grid md:grid-cols-3 gap-4 mt-8 md:mt-16">
+    <div class="grid md:grid-cols-3 gap-4 mt-4 md:mt-16">
       <div
         class="flex flex-col items-start px-9 pt-12 pb-8 mx-auto w-full bg-lime-300 rounded-[32px] max-md:px-5 max-md:mt-4"
       >
@@ -37,7 +37,6 @@
           your item.
         </p>
       </div>
-
       <div
         class="flex flex-col px-9 pt-11 pb-20 mx-auto w-full bg-lime-300 rounded-[32px] max-md:px-5 max-md:mt-4"
       >

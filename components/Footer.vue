@@ -14,6 +14,7 @@
         />
         <div class="flex items-center flex-wrap gap-4 md:gap-8 mt-6 md:mt-0">
           <p class="flex-auto my-auto">Be the part of our community</p>
+          <br class=" md:hidden" />
           <a href="#" aria-label="Social media link">
             <svg
               width="51"

@@ -3,12 +3,12 @@
     <h3 class=" text-[#0D0D0D] text-4xl md:text-[59px] font-extrabold ">
         TRAVELER:
     </h3>
-    <div class="flex gap-5 max-md:flex-col mt-8 md:mt-16">
-      <article class="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
+    <div class="grid md:grid-cols-3 gap-5  max-md:flex-col mt-8 md:mt-16">
+      <article class="flex flex-col   max-md:ml-0 max-md:w-full">
         <div
-          class="flex flex-col grow pt-14 pb-5 w-full bg-neutral-800 rounded-[32px] max-md:mt-5"
+          class="flex flex-col grow pt-10 px-8 pb-1 w-full bg-neutral-800 rounded-[32px] max-md:mt-5"
         >
-          <div class="flex flex-col px-16 w-full max-md:px-5">
+          <div class="flex flex-col  px-16 w-full max-md:px-5">
             <h2
               class="self-center text-2xl font-bold text-center text-white uppercase w-[273px]"
             >
@@ -187,9 +187,9 @@
           </p>
         </div>
       </article>
-      <article class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+      <article class="flex flex-col   max-md:ml-0 max-md:w-full">
         <div
-          class="flex flex-col grow px-9 py-12 w-full text-center bg-neutral-800 rounded-[32px] max-md:px-5 max-md:mt-5"
+          class="flex flex-col justify-between grow px-8 py-10 pb-8 w-full text-center bg-neutral-800 rounded-[32px] max-md:px-5 max-md:mt-5"
         >
           <h2
             class="text-2xl font-bold text-white uppercase max-md:mr-1.5 max-md:ml-1"
@@ -209,9 +209,9 @@
           </p>
         </div>
       </article>
-      <article class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+      <article class="flex flex-co  max-md:ml-0 max-md:w-full">
         <div
-          class="flex flex-col grow items-center px-6 pt-14 pb-8 w-full text-center bg-neutral-800 rounded-[32px] max-md:px-5 max-md:mt-5"
+          class="flex flex-col grow items-center justify-between px-8 py-10 pb-8 w-full text-center bg-neutral-800 rounded-[32px] max-md:px-5 max-md:mt-5"
         >
           <h2 class="text-2xl font-bold text-white uppercase">
             Discuss your reward with the shopAHOLIC
